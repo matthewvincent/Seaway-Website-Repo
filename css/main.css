@@ -1,0 +1,269 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.nav {
+    margin-bottom: 20px;
+    background-image: url("../img/Background.jpg");
+
+}
+.custom > li > a:hover {
+    color: #76df80;
+    background-color: #9662ad;
+}
+.nav > li.active > a,
+        .nav > li.active > a:hover,
+        .nav > li.active > a:focus {
+          color: #e59d49;
+          cursor: #ede51e;
+          background-color: #677fa5;
+          border: transparent;
+          border-bottom-color: transparent;
+          } 
+#myCarousel {
+    width:560px;
+    height:315px;
+    margin: auto;
+}
+.video-slider {
+    text-align: center;
+}
+#main-jumbo {
+    margin-bottom: 0px;
+    background-color: transparent;
+    background-position: 0% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    
+}
+#promo-jumbo {
+    margin-bottom: 50px;
+    background-image: url("../img/SeawayWarpedPromo.png");
+    background-position: 0% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    min-height: 350px; 
+}
+
+.main_logo {
+    text-align: center;
+    margin-top: -10px;
+}
+
+.carousel-inner { 
+    margin-top: 100px;
+    text-align: center; 
+}
+
+.tumblr_posts {   
+    margin: 10px auto;
+}
+.tumblr_caption {
+    background-image: url("../img/Background.jpg");
+    -webkit-box-shadow: 0 8px 6px -6px #919191;
+       -moz-box-shadow: 0 8px 6px -6px #919191;
+            box-shadow: 0 8px 6px -6px #919191;
+    
+    padding: 10px;
+    margin: 10px;
+}
+.tumblr_photo {
+    background-image: url("../img/Background.jpg");
+    -webkit-box-shadow: 0 8px 6px -6px #919191;
+       -moz-box-shadow: 0 8px 6px -6px #919191;
+            box-shadow: 0 8px 6px -6px #919191;
+    padding: 10px;
+}
+.tumblr_video_iframe {
+    text-align: center;
+    background-image: url("../img/Background.jpg");
+    -webkit-box-shadow: 0 8px 6px -6px #919191;
+       -moz-box-shadow: 0 8px 6px -6px #919191;
+            box-shadow: 0 8px 6px -6px #919191;
+    padding: 10px;
+
+}
+.tumblr_post {      
+    text-align: center;
+    
+    padding: 10px;
+    margin: auto;
+}
+.tumblr_title { 
+
+}
+.tumblr_body img {  
+    text-align: center;
+}
+.tumblr_text_post {
+    background-image: url("../img/Background.jpg");
+    -webkit-box-shadow: 0 8px 6px -6px #919191;
+       -moz-box-shadow: 0 8px 6px -6px #919191;
+            box-shadow: 0 8px 6px -6px #919191;
+    padding: 10px;
+    margin: 20px;
+}
+.read_more_container {
+    
+}
+.read_more_container a {
+    
+}
+
+ol.tumblr_posts{
+    list-style: none;
+    text-align: center;
+}
+.html_photoset {
+    background-image: url("../img/Background.jpg");
+    -webkit-box-shadow: 0 8px 6px -6px #919191;
+       -moz-box-shadow: 0 8px 6px -6px #919191;
+            box-shadow: 0 8px 6px -6px #919191;
+    padding: 10px;
+    margin: 10px;
+}
+.html5-video-container {
+    background-image: url("../img/Background.jpg");
+    -webkit-box-shadow: 0 8px 6px -6px #919191;
+       -moz-box-shadow: 0 8px 6px -6px #919191;
+            box-shadow: 0 8px 6px -6px #919191;
+    padding: 10px;
+    margin: 10px auto;
+}
+.embed_iframe {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.social_links {
+    text-align: center;
+    
+}
+#social li {
+    list-style-type: none;
+    text-align: right;
+    padding: 10px;
+    display: inline;
+    margin: auto;
+}
+.content {
+    margin-top: 100px;
+}
+
+.one-edge-shadow {
+    -webkit-box-shadow: 0 8px 6px -6px #919191;
+       -moz-box-shadow: 0 8px 6px -6px #919191;
+            box-shadow: 0 8px 6px -6px #919191;
+}
+.album_info {
+    text-align: center;
+    background-image: url("../img/Background.jpg");
+    -webkit-box-shadow: 0 8px 6px -6px #919191;
+       -moz-box-shadow: 0 8px 6px -6px #919191;
+            box-shadow: 0 8px 6px -6px #919191;
+    padding: 10px;
+    color: #5075a6;
+    font-weight:100;
+}
+#album_header {
+    margin-top: 70px;
+    margin-bottom: auto;
+}
+.circle-image{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background-image:url("http://placekitten.com/g/200/400");
+    display:block;
+    background-position-y:25% 
+}
+.myButton {
+    margin-top: 20px;
+    -webkit-box-shadow: 0 8px 6px -6px #919191;
+       -moz-box-shadow: 0 8px 6px -6px #919191;
+            box-shadow: 0 8px 6px -6px #919191;
+    padding: 10px;
+    background-color:#5b81b6;
+    -moz-border-radius:42px;
+    -webkit-border-radius:42px;
+    border-radius:42px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Helvetica;
+    font-size:16px;
+    padding:13px 26px;
+    text-decoration:none;
+}
+.myButton:hover {
+    background-color:#9a61af;
+    color: #75df80;
+    text-decoration: none;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+    color: #75df80;
+    text-decoration: none;
+}
+.pn-logo {
+    padding: 25px;
+    margin: auto;
+}
+        
+.main_logo {
+    text-align: center;
+}
+
+#social-jumbo {
+    max-height: 80px;
+    background-image: url("../img/Background.jpg");
+    padding: 10px;
+    margin-top: 20px;
+    -webkit-box-shadow: 0 8px 6px -6px #919191;
+       -moz-box-shadow: 0 8px 6px -6px #919191;
+            box-shadow: 0 8px 6px -6px #919191;
+    margin-bottom: 100px;
+}
+
+.circle {
+    background-color: #587eb5;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    -webkit-box-shadow: 0 8px 6px -6px #919191;
+       -moz-box-shadow: 0 8px 6px -6px #919191;
+            box-shadow: 0 8px 6px -6px #919191;
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+    margin-top: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d89a52;
+
+}
+.single-text {
+    margin-top: 80px;
+    color: white;
+    font-size: 30px; 
+
+
+}
+.single-banner {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.single-video {
+    margin: auto;
+    background-color: transparent;
+    text-align: center;
+}

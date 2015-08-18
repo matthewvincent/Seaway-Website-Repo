@@ -233,7 +233,7 @@ ol.tumblr_posts{
 }
 
 .circle {
-    background-color: #587eb5;
+    background-color: #ede51e;
     border-radius: 50%;
     height: 300px;
     width: 300px;
@@ -246,7 +246,7 @@ ol.tumblr_posts{
     margin-top: 30px;
     border-style: solid;
     border-width: 2px;
-    border-color: #d89a52;
+    border-color: #e75425;
 
 }
 .single-text {
@@ -261,9 +261,16 @@ ol.tumblr_posts{
     text-align: center;
     margin-bottom: 30px;
     margin-top: 30px;
+    background-image: url("../img/Background.jpg");
+    -webkit-box-shadow: 0 8px 6px -6px #919191;
+       -moz-box-shadow: 0 8px 6px -6px #919191;
+            box-shadow: 0 8px 6px -6px #919191;
 }
 .single-video {
     margin: auto;
     background-color: transparent;
     text-align: center;
+}
+.freak {
+    margin-top: 65px;
 }

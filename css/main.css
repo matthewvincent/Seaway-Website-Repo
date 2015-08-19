@@ -252,6 +252,9 @@ ol.tumblr_posts{
     height: 100%;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
+    -webkit-box-shadow: 0 8px 6px -6px #919191;
+       -moz-box-shadow: 0 8px 6px -6px #919191;
+            box-shadow: 0 8px 6px -6px #919191;
 }
 .promo-photo {
     margin-top: 100px;

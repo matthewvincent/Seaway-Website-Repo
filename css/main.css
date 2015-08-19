@@ -232,23 +232,6 @@ ol.tumblr_posts{
     margin-bottom: 100px;
 }
 
-.circle {
-    background-color: #ede51e;
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-    -webkit-box-shadow: 0 8px 6px -6px #919191;
-       -moz-box-shadow: 0 8px 6px -6px #919191;
-            box-shadow: 0 8px 6px -6px #919191;
-    text-align: center;
-    margin: auto;
-    padding: 25px;
-    margin-top: 30px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #e75425;
-
-}
 .single-text {
     margin-top: 80px;
     color: white;
@@ -267,10 +250,15 @@ ol.tumblr_posts{
             box-shadow: 0 8px 6px -6px #919191;
 }
 .single-video {
-    margin: auto;
+    margin-top: 35px;
+    margin-bottom: -5px;
+    margin-left: -45px;
+    margin-right: -45px;
     background-color: transparent;
     text-align: center;
 }
-.freak {
-    margin-top: 65px;
+.preorder-bundle {
+    text-align: center;
+    margin-top: 20px;
+
 }

@@ -141,18 +141,8 @@ ol.tumblr_posts{
     margin-left: auto;
 }
 
-.social_links {
-    float: left;
-    
-}
-#social li {
-    list-style-type: none;
-    text-align: center;
-    padding: 5px;
-    display: inline-block;
-    margin: auto;
 
-}
+
 .content {
     margin-top: 100px;
 }
@@ -176,15 +166,23 @@ ol.tumblr_posts{
     margin-top: 70px;
     margin-bottom: auto;
 }
-
-
-        
+      
 .main_logo {
     text-align: center;
 }
+
+#social li {
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+
+}
 .social-wrapper {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 20px;
+
 }
 
 .social-button {
@@ -249,4 +247,5 @@ ol.tumblr_posts{
 }
 .promo-photo {
     margin-top: 100px;
+    margin-bottom: 60px;
 }

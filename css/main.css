@@ -202,6 +202,9 @@ ol.tumblr_posts{
     color: #5075a6;
     background-color: transparent;
     border: solid #5075a6 2px;
+    -webkit-box-shadow: 0 8px 6px -6px white;
+       -moz-box-shadow: 0 8px 6px -6px white;
+            box-shadow: 0 8px 6px -6px white;
 }
 
 .single-text {

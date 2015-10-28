@@ -7,6 +7,9 @@ body {
     font-weight: bold;
     color: #677fa5;
 }
+.navbar-toggle {
+    float:left;
+}
 .glyphicon-globe {
     font-size: 20px;
     line-height: 80px;
@@ -68,6 +71,7 @@ body {
     margin-top: 100px;
 }
 #myNavbar {
+    background-color: white;
     -webkit-box-shadow: 0 8px 6px -6px #919191;
        -moz-box-shadow: 0 8px 6px -6px #919191;
             box-shadow: 0 8px 6px -6px #919191;
@@ -120,7 +124,7 @@ body {
     padding: 0px;
     width: 100%;
     height: 1000px;
-    margin-top: -20px;
+    margin-top: -75px;
     margin-bottom: 0px;
     background-color: transparent;
     background-position: 0% 20%;
@@ -371,6 +375,12 @@ body {
     }
 }
 @media (max-width: 768px) {
+      #main-jumbo {
+        background-image: url("../img/SeawayWarpedPromo2small.png");
+        width: 100%;
+        height: 1000px;
+        margin-bottom: 0px;
+    }
     .main-banner {
         height: 1000px;
         width: 100%;

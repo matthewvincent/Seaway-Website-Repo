@@ -3,15 +3,18 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+#tumblr_controls, .tmblr-iframe{display:none !important;}
+
 body {
     font-weight: bold;
     color: #677fa5;
 }
 @media (max-width: 768px) {
       #main-jumbo {
-        background-image: url("../img/SeawayWarpedPromo2small.png");
+        background-image: url("../img/seaway_promo2.png");
         width: 100%;
-        height: 1000px;
+        height: 800px;
         margin-bottom: 0px;
     }
 }
@@ -35,7 +38,7 @@ body {
 }
 
 .dates {
-    overflow: scroll;
+    overflow: auto;
 }
 .album {
     max-width: 600px;
@@ -128,7 +131,7 @@ body {
     color: #677fa5;
 }
 #main-jumbo {
-    background-image: url("../img/SeawayWarpedPromo.png");
+    background-image: url("../img/seaway_promo.png");
     padding: 0px;
     width: 100%;
     height: 1000px;
@@ -137,11 +140,11 @@ body {
     background-color: transparent;
     background-position: 0% 20%;
     background-size: cover;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;  
 }
 #promo-jumbo {
     margin-bottom: 50px;
-    background-image: url("../img/SeawayWarpedPromo.png");
+    background-image: url("../img/seaway_promo.png");
     background-position: 0% 20%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -369,9 +372,9 @@ body {
 
 @media (max-width: 1400px) {
      #main-jumbo {
-        background-image: url("../img/SeawayWarpedPromo2small.png");
+        background-image: url("../img/seaway_promo.png");
         width: 100%;
-        height: 1000px;
+        height: 800px;
         margin-bottom: 0px;
     }
 }
@@ -384,9 +387,9 @@ body {
 }
 @media (max-width: 768px) {
       #main-jumbo {
-        background-image: url("../img/SeawayWarpedPromo2small.png");
+        background-image: url("../img/seaway_promo2.png");
         width: 100%;
-        height: 1000px;
+        height: 800px;
         margin-bottom: 0px;
     }
     .main-banner {
@@ -481,7 +484,7 @@ body {
         max-width: 210px;
     }
     #main-jumbo {
-        background-image: url("../img/SeawayWarpedPromo2small.png");
+        background-image: url("../img/seaway_promo2.png");
         width: 100%;
         height: 370px;
         margin-bottom: 0px;
@@ -504,7 +507,7 @@ body {
         text-align: center;
     }
     .tumblr_post div {      
-        “max-width: 300px;
+        max-width: 300px;
     }
     .colour-blind {
         max-width: 200px;
